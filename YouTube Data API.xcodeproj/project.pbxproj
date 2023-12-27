@@ -13,6 +13,7 @@
 		2487174A2B3C7E2D0003B361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248717482B3C7E2D0003B361 /* Main.storyboard */; };
 		2487174C2B3C7E330003B361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2487174B2B3C7E330003B361 /* Assets.xcassets */; };
 		2487174F2B3C7E330003B361 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2487174D2B3C7E330003B361 /* LaunchScreen.storyboard */; };
+		248717572B3C82030003B361 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248717562B3C82030003B361 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2487174B2B3C7E330003B361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2487174E2B3C7E330003B361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		248717502B3C7E330003B361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248717562B3C82030003B361 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				248717422B3C7E2D0003B361 /* AppDelegate.swift */,
 				248717442B3C7E2D0003B361 /* SceneDelegate.swift */,
+				248717562B3C82030003B361 /* Constants.swift */,
 				248717462B3C7E2D0003B361 /* ViewController.swift */,
 				248717482B3C7E2D0003B361 /* Main.storyboard */,
 				2487174B2B3C7E330003B361 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				248717472B3C7E2D0003B361 /* ViewController.swift in Sources */,
 				248717432B3C7E2D0003B361 /* AppDelegate.swift in Sources */,
 				248717452B3C7E2D0003B361 /* SceneDelegate.swift in Sources */,
+				248717572B3C82030003B361 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

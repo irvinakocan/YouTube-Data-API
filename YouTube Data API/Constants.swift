@@ -6,3 +6,6 @@
 //
 
 import Foundation
+
+let YOUTUBE_API = "https://www.googleapis.com/youtube/v3"
+let GET_PLAYLIST_ITEMS_ENDPOINT = "/playlistItems"

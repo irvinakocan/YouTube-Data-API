@@ -29,14 +29,7 @@ func fetchPlaylistItems() {
         return
     }
     
-    // Create URL Request
-    var urlRequest = URLRequest(url: url)
-            
-    // Specify HTTP Request Method
-    urlRequest.httpMethod = "GET"
-    
-    
-    let task = URLSession.shared.dataTask(with: urlRequest, completionHandler: {
+    let task = URLSession.shared.dataTask(with: url, completionHandler: {
         (data, response, error) in
         
         if error != nil {

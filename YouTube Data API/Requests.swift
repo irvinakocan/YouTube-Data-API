@@ -55,6 +55,8 @@ func fetchPlaylistItems() {
     task.resume()
 }
 
+// OAuth2 Authentification needed
+
 func addItemIntoPlaylist() {
     
     // Create URL Components
@@ -80,7 +82,7 @@ func addItemIntoPlaylist() {
     urlRequest.httpMethod = "POST"
     
     // Set HTTP Request Headers
-    urlRequest.setValue("Bearer " + MY_ACCESS_TOKEN, forHTTPHeaderField: "Authorization")
+    urlRequest.setValue("Bearer " + "ACCESS_TOKEN", forHTTPHeaderField: "Authorization")
     urlRequest.setValue("application/json", forHTTPHeaderField: "Accept")
     urlRequest.setValue("application/json", forHTTPHeaderField: "Content-Type")
     
